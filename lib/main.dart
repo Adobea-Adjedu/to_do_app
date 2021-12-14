@@ -12,6 +12,9 @@ class MyApp extends StatelessWidget {
       title: 'Awesome Todo',
       theme: ThemeData(
         primaryColor: Colors.white,
+        appBarTheme: const AppBarTheme(
+              backgroundColor: Color.fromRGBO(37, 43, 103, 1),
+              elevation: 0)
       ),
       home: HomeView(),
     );

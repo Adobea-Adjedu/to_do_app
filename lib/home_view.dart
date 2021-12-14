@@ -33,27 +33,49 @@ final List<Map<String, dynamic>> _unCompletedData = [];
       'status': true,
     },
     {
-      'title': 'Suspendisse non fermentum magna.',
+      'title': 'Plan my birthday.',
       'description':
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque ligula, commodo vel iaculis eu, lacinia sit amet felis. Phasellus ultrices porta mauris vel fermentum. In hac habitasse platea dictumst. Vivamus sollicitudin tincidunt quam, sit amet aliquam orci sagittis id. Nunc tempus mollis mi, sed varius est accumsan in. Integer efficitur sem porta nulla consectetur, vel blandit sem bibendum. Sed sit amet tempor orci, eu porta lacus. Praesent at nisl vitae quam consequat gravida at sed quam. Nunc interdum hendrerit pulvinar. Phasellus bibendum, urna sit amet cursus efficitur, justo ante scelerisque orci, ac posuere elit neque in metus.',
+          '',
+      'date_time': 'Today 13:00',
+      'status': false,
+    },
+    {
+      'title': 'Groceries for dinner.',
+      'description':
+          ' Get tomatoes,potatoes, green beans, cream and beef fillet. Also buy red wine at John\'s wine shop',
+      'date_time': 'Today 15:00',
+      'status': false, 
+    },
+    {
+      'title': 'Port projects.',
+
+      'description':
+          ' Send presentation to Bill.',
       'date_time': 'Tomorrow',
-      'status': false,
+      'status': false,  
     },
     {
-      'title': 'Donec vestibulum egestas dapibus.',
+      'title': 'Taket jacket to cleaning.',
       'description':
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque ligula, commodo vel iaculis eu, lacinia sit amet felis. Phasellus ultrices porta mauris vel fermentum. In hac habitasse platea dictumst. Vivamus sollicitudin tincidunt quam, sit amet aliquam orci sagittis id. Nunc tempus mollis mi, sed varius est accumsan in. Integer efficitur sem porta nulla consectetur, vel blandit sem bibendum. Sed sit amet tempor orci, eu porta lacus. Praesent at nisl vitae quam consequat gravida at sed quam. Nunc interdum hendrerit pulvinar. Phasellus bibendum, urna sit amet cursus efficitur, justo ante scelerisque orci, ac posuere elit neque in metus.',
-      'date_time': 'Today',
-      'status': false,
+          '',
+      'date_time': 'Fri. 30 OCT',
+      'status': false,  
     },
     {
-      'title':
-          'Nullam viverra nisi vitae risus rhoncus, in ultrices leo tempor.',
+      'title': 'Fix dad\'s PC.',
       'description':
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque ligula, commodo vel iaculis eu, lacinia sit amet felis. Phasellus ultrices porta mauris vel fermentum. In hac habitasse platea dictumst. Vivamus sollicitudin tincidunt quam, sit amet aliquam orci sagittis id. Nunc tempus mollis mi, sed varius est accumsan in. Integer efficitur sem porta nulla consectetur, vel blandit sem bibendum. Sed sit amet tempor orci, eu porta lacus. Praesent at nisl vitae quam consequat gravida at sed quam. Nunc interdum hendrerit pulvinar. Phasellus bibendum, urna sit amet cursus efficitur, justo ante scelerisque orci, ac posuere elit neque in metus.',
-      'date_time': 'Mon. 15 Nov',
-      'status': false,
+          'Install the latest updates and check your wireless connection.',
+          'date_time': 'Fri. 30 OCT',
+      'status': false,  
+    },
+    {
+      'title': 'Trip to Stockholm.',
+      'description':
+          'Talk with Monica about this trip.',
+          'date_time': 'Fri. 30 OCT',
+      'status': false,  
     }
+    
   ];
 
   @override
